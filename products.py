@@ -20,13 +20,6 @@ while True:
 	if name == 'q' or name == '':
 		break
 	price = input('請輸入商品金額：')	
-
-	#product = []
-	#product.append(name)
-	#product.append(price)
-	
-	#product = [name, price]
-
 	products.append([name, price])
 print(products)
 
